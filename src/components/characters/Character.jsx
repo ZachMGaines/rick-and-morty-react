@@ -12,7 +12,7 @@ const Character = ({ name, species, status, image }) => (
   </figure>
 );
 
-Character.PropTypes = {
+Character.propTypes = {
   name: PropTypes.string.isRequired,
   species: PropTypes.string.isRequired,
   status: PropTypes.string.isRequired,
