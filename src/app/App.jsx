@@ -6,7 +6,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
-import CharacterDetail from '../components/characters/CharacterDetail';
+import CharacterDetail from '../container/CharacterDetail';
 
 
 export default class App extends Component {
@@ -25,10 +25,6 @@ export default class App extends Component {
                 <CharacterDetail {...routerProps} />
               )}
             />
-
-
-
-
             <Redirect to="/" />
 
           </Switch>
